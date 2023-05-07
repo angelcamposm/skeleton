@@ -13,7 +13,6 @@ class SkeletonTestCase extends TestCase
      * Override application aliases.
      *
      * @param  Application  $app
-     *
      * @return array<string, class-string<\Illuminate\Support\Facades\Facade>>
      */
     protected function getPackageAliases($app)
@@ -27,7 +26,6 @@ class SkeletonTestCase extends TestCase
      * Get package providers.
      *
      * @param  Application  $app
-     *
      * @return array<int, class-string<\Illuminate\Support\ServiceProvider>>
      */
     protected function getPackageProviders($app)
