@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="C:\code\angelcamposm\skeleton-php\tests\unit" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.051193">
-    <testsuite name="Tests\unit\SampleAssertionsTest" file="C:\code\angelcamposm\skeleton-php\tests\unit\SampleAssertionsTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.051193">
-      <testcase name="testAssertFalseEqualsFalse" file="C:\code\angelcamposm\skeleton-php\tests\unit\SampleAssertionsTest.php" line="16" class="Tests\unit\SampleAssertionsTest" classname="Tests.unit.SampleAssertionsTest" assertions="1" time="0.027005"/>
-      <testcase name="testAssertTrueEqualsTrue" file="C:\code\angelcamposm\skeleton-php\tests\unit\SampleAssertionsTest.php" line="22" class="Tests\unit\SampleAssertionsTest" classname="Tests.unit.SampleAssertionsTest" assertions="1" time="0.024188"/>
-    </testsuite>
-  </testsuite>
-</testsuites>

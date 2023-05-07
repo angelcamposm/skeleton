@@ -45,15 +45,17 @@
         }
     },
     "scripts": {
-        "analyze": "phpstan analyse --ansi src/ tests/",
         "tests": [
-            "@tests:unit",
-            "@tests:integration"
+            "@test:lint",
+            "@test:sast",
+            "@tests:unit"
         ],
         "test": "phpunit --colors=always --no-progress --testdox tests",
+        "test:lint": "pint --test",
         "test:list-groups": "phpunit --list-groups",
         "test:list-tests": "phpunit --list-tests",
         "test:list-suites": "phpunit --list-suites",
+        "test:sast": "phpstan analyse --ansi src/ tests/",
         "tests:integration": "phpunit --colors=always --no-progress --testdox --testsuite integration",
         "tests:unit": "phpunit --colors=always --no-progress --testdox --testsuite unit"
     }

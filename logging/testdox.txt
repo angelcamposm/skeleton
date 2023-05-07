@@ -1,4 +1,0 @@
-Initial sample assertions
- [x] Assert false equals false
- [x] Assert true equals true
-
