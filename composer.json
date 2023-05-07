@@ -16,6 +16,7 @@
         "guzzlehttp/guzzle": "^7.5"
     },
     "require-dev": {
+        "laravel/pint": "^1.10",
         "orchestra/testbench": "^8.5",
         "phpstan/phpstan": "^1.10",
         "phpunit/php-code-coverage": "^10.1",
