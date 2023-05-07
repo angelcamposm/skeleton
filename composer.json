@@ -1,5 +1,5 @@
 {
-    "name": "angelcamposm/php-package-skeleton",
+    "name": "acamposm/php-package-skeleton",
     "description": "Skeleton for my PHP packages",
     "keywords": ["php", "skeleton", "package"],
     "type": "library",
