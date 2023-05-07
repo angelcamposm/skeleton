@@ -1,5 +1,6 @@
 /.idea/
 /.phpunit.cache/
+/logging/
 /reports/
 /vendor/
 .phpunit.xml.bak
