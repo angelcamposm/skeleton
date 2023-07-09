@@ -1,9 +1,10 @@
 {
-    "name": "acamposm/php-package-skeleton",
+    "name": "acamposm/skeleton",
     "description": "Skeleton for my PHP packages",
     "keywords": ["php", "skeleton", "package"],
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Angel Campos Muñoz",
@@ -12,8 +13,7 @@
         }
     ],
     "require": {
-        "php": "^8.2.0",
-        "guzzlehttp/guzzle": "^7.5"
+        "php": "^8.2.0"
     },
     "require-dev": {
         "laravel/pint": "^1.10",
